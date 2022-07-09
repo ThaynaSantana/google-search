@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(https://media.giphy.com/media/UqpjszfpiOiLA0L5le/source.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1 {
+    display: block;
+    font-size: 10rem;
+    color: #fafafa;
+    text-shadow: 6px 10px #000000;
+}
+
+#search {
+    margin: 15px;
+    display: flex;
+    padding: 3px;
+    border-radius: 1rem;
+    background-color: #fafafa;
+    outline: rgb(255, 145, 28) solid 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#searchbox {
+    height: 5vh;
+    width: 100%;
+    display: block;
+    border: none;
+    font-size: 12pt;
+    border-radius: 1rem;
+    margin: 5px;
+}
+
+#searchbox:focus-visible {
+    outline: none;
+}
+
+
+button {
+    display: inline;    
+    width: 3vw;
+    background: none; 
+    border: none;
+    font-size: 1.3rem;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#display {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+footer {
+    text-align: right;
+    background-color: rgb(255, 145, 28);
+    color: rgb(28, 28, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 2rem;
+    font-size: 2rem;
+    text-shadow: -2px 2px #ffffff4b;
+}
+
+footer a {
+    color: #fafafa;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: rgb(28, 28, 255);
+    background-color: #fafafa;
+}
+
+.red:hover {
+    color: #fc1919;
+    cursor: pointer;
+}
+
+.orange:hover {
+    color: #ff4500;
+    cursor: pointer;
+}
+
+.yellow:hover {
+    color: #ffff18;
+    cursor: pointer;
+}
+
+.green:hover {
+    color: #acf53d;
+    cursor: pointer;
+}
+
+.green-black:hover {
+    color: #11a911;
+    cursor: pointer;
+}
+
+.blue:hover {
+    color: rgb(0, 140, 255);
+    cursor: pointer;
+}
