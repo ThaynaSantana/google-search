@@ -89,29 +89,35 @@ footer a:hover {
 .red:hover {
     color: #fc1919;
     cursor: pointer;
+    font-size: 3rem;
 }
 
 .orange:hover {
     color: #ff4500;
     cursor: pointer;
+    font-size: 3rem;
 }
 
 .yellow:hover {
     color: #ffff18;
     cursor: pointer;
+    font-size: 3rem;
 }
 
 .green:hover {
     color: #acf53d;
     cursor: pointer;
+    font-size: 3rem;
 }
 
 .green-black:hover {
     color: #11a911;
     cursor: pointer;
+    font-size: 3rem;
 }
 
 .blue:hover {
     color: rgb(0, 140, 255);
     cursor: pointer;
+    font-size: 3rem;
 }
